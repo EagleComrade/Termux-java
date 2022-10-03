@@ -33,12 +33,12 @@ sleep 2s
 install()
 echo
 echo
-FILE = "/data/data/com.termux/file/usr/bin"
-if [ -d "$FILE/java" ]:
+FILE=/data/data/com.termux/file/usr/bin
+if [ -f "$FILE/java" ] :
 then
 echo -e "[\] INSTALLING SUCCESSFUL..."
 echo -e "[\] TYPE JAVA TO EXECUTE (~$ java)"
-else :
+else
 echo -e "[\] INSTALLING FAILED "
 echo -e "(try to install one more time....)"
 fi
