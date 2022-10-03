@@ -1,8 +1,8 @@
 #©®eated by https://github.com/EagleComrade
 
 _logo__() {
-       echo -e ".............T E R M U X___J A V A................"
-       echo -e ":::::::::::::::::::::::::::::::::::::https://github.com/EagleComrade"
+       echo -e "...........T E R M U X___J A V A.............."
+       echo -e "::::::::::::::::::::::::::::::::https://github.com/EagleComrade"
         }
 _install__() {
            echo
