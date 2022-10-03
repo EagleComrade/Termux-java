@@ -1,10 +1,11 @@
+#©®eated by https://github.com/EagleComrade
 
-
-logo() {
-       echo -e "..INSTALL JAVA ==> TERMUX"
-       echo -e ":::::::github@EagleComrade"
+_logo__() {
+       echo -e ".............T E R M U X___J A V A................"
+       echo -e ":::::::::::::::::::::::::::::::::::::https://github.com/EagleComrade"
         }
-install() {
+_install__() {
+           echo
            echo -e "[+] INSTALLING CLANG..."
            sleep 2s
            pkg install clang -y
@@ -20,20 +21,21 @@ install() {
            }
 #Main script
 clear 
-logo()
+_logo__
+echo
 echo -e "[/] UPDATEING & UPGRADING......"
 sleep 2s
 pkg update && pkg upgrade -y
 clear
-logo()
+_logo__
 echo
 echo -e "[\] STARTING MAIN INSTALLATIONs "
 sleep 2s
-install()
+_install__
 echo
 echo
-FILE=/data/data/com.termux/file/usr/bin
-if [ -f "$FILE/java" ] :
+FILE=/data/data/com.termux/files/usr/bin
+if [ -f "$FILE/java" ] 
 then
 echo -e "[\] INSTALLING SUCCESSFUL..."
 echo -e "[\] TYPE JAVA TO EXECUTE (~$ java)"
