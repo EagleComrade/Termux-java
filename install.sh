@@ -21,7 +21,6 @@ install() {
 #Main script
 clear 
 logo()
-sleep 2s
 echo -e "[/] UPDATEING & UPGRADING......"
 sleep 2s
 pkg update && pkg upgrade -y
